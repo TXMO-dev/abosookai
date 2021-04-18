@@ -11,4 +11,4 @@ WORKDIR /app
 COPY ./app /app
 
 RUN adduser -D task_user
-USER task_user 
+USER task_user    
